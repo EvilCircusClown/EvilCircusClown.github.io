@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+	body {
+		background-image: url("https://play-lh.googleusercontent.com/NmXmCbZ8dRqutTSbL2_tkc4AWcoJ7vL1fqOCt4ZwyHIHaYwSJnvJBL1_IA4VHUMfbhCs=w3840-h2160-rw");
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-size: cover;
+		font-family: Amatic SC;
+			color: #000000;
+	}
+	h1 {
+		font-weight: bold;
+		font-size: 50px;
+		background-color: #4ED27F;
+		
+	}
+	p {
+		font-size: 20px;
+		background-color: #4ED27F;
+	}
+	h2 {
+		background-color: #4EA17F;
+	}
+	.dinoimg:hover { 
+		transform: scale(1.08); 
+		opacity: 0.8
+    }
+	#quiz {
+		max-width: 500px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	#question {
+		background-color: #4ED27F
+	}
+	.option-btn {
+		display: block;
+		margin: 10px auto;
+		padding: 10px 20px;
+		font-size: 16px;
+		background-color: #007bff;
+		color: #fff;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+
+	#submit {
+		margin-top: 20px;
+		padding: 10px 30px;
+		font-size: 18px;
+		background-color: #28a745;
+		color: #fff;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+
+	#submit:hover {
+		background-color: #218838;
+	}
+	#retry {
+		margin-top: 20px;
+		padding: 10px 30px;
+		font-size: 18px;
+		background-color: #28a745;
+		color: #fff;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+	#retry:hover {
+		background-color: #218838;
+	}
+
+</style>
+
+<head>
+z
+	<title>Dinosaurs</title>
+</head>
+
+<body>
+	<center>
+	<h1>DINOSAURS</h1>
+	</center>
+		<p>
+		Dinosaurs are a diverse group of reptiles of the clade Dinosauria.
+		They first appeared during the Triassic period, between 243 and 233.23 million years ago (mya),
+		although the exact origin and timing of the evolution of dinosaurs is a subject of active research.
+		They became the dominant terrestrial vertebrates after the Triassic–Jurassic extinction event 201.3 mya
+		and their dominance continued throughout the Jurassic and Cretaceous periods.
+		The fossil record shows that birds are feathered dinosaurs, having evolved from earlier theropods during
+		the Late Jurassic epoch, and are the only dinosaur lineage known to have survived the Cretaceous–Paleogene
+		extinction event approximately 66 mya.
+		Dinosaurs can therefore be divided into avian dinosaurs—birds—and the extinct non-avian dinosaurs,
+		which are all dinosaurs other than birds.
+		</p><br>
+	<div class="Dinosaurs">
+		<center>
+		<h2>Dinosaur Types:</h2>
+		<a href="Marginocephalians.html">
+			<h2>Marginocephalians</h2>
+				<img src="https://static.wikia.nocookie.net/dino/images/a/ab/Triceratops_Jurassic_World.png/revision/latest?cb=20180622141308" width="30%" class = "dinoimg">
+		</a>
+		<a href="Ornithopods.html">
+			<h2>Ornithopods</h2>
+				<img src="https://static.wikia.nocookie.net/jurassicpark/images/d/d1/JWD_Parasaurolophus.png/revision/latest?cb=20220618082154" width="30%" class = "dinoimg">
+		</a>
+		<a href="Sauropods.html">
+			<h2>Sauropods</h2>
+				<img src="https://static.wikia.nocookie.net/dino/images/5/51/Jurassic_world_brachiosaurus_updated_by_sonichedgehog2-dc55jvt.png/revision/latest?cb=20180622141045" width="30%" class = "dinoimg">
+		</a>
+		<a href="Theropods.html">
+			<h2>Theropods</h2>
+				<img src="https://static.wikia.nocookie.net/dino/images/e/ec/Jurassic_Park_Tyrannosaurus_Rex_%281%29.png/revision/latest?cb=20221117060622" width="30%" class = "dinoimg">
+		</a>
+		<a href="Thyreophorans.html">
+			<h2>Thyreophorans</h2>
+				<img src="https://static.wikia.nocookie.net/jurassicpark/images/8/8f/Jurassic_world_fallen_kingdom_stegosaurus_v4_by_sonichedgehog2-dco06sh.png/revision/latest?cb=20180928221819" width="30%" class = "dinoimg">
+		</a>
+		</center>
+	</div>
+	<div id="quiz">
+        <h1>Dinosaur Quiz</h1>
+        <div id="question"></div>
+        <div id="options"></div>
+        <button id="submit">Submit</button>
+    </div>
+	
+	<script src="dinoscript.js"></script>
+</body>
+</html>
